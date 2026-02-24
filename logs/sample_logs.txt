@@ -1,0 +1,4 @@
+ALERT: Possible brute force attack from IP 192.168.1.10 (3 failed attempts)
+ALERT: Password Spraying from IP 45.33.21.90 (4 usernames)
+ALERT: SQL Injection attempt detected from IP 203.0.113.8
+ALERT: Possible phishing link clicked by alice@company.com

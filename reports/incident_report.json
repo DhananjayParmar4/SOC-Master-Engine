@@ -1,0 +1,34 @@
+[
+    {
+        "incident_id": "794ec3bf-5a1d-47d5-8665-89d9630f798a",
+        "timestamp": "2026-02-23 12:04:19",
+        "ip_address": "192.168.1.10",
+        "severity": "Medium",
+        "mitre_attack": "T1110 - Brute Force",
+        "raw_log": "ALERT: Possible brute force attack from IP 192.168.1.10 (3 failed attempts)"
+    },
+    {
+        "incident_id": "068e5fc2-fcb4-4f46-915f-2317d2265463",
+        "timestamp": "2026-02-23 12:04:19",
+        "ip_address": "45.33.21.90",
+        "severity": "Medium",
+        "mitre_attack": "T1110.003 - Password Spraying",
+        "raw_log": "ALERT: Password Spraying from IP 45.33.21.90 (4 usernames)"
+    },
+    {
+        "incident_id": "7b51238a-ecda-4467-9220-476846b8a691",
+        "timestamp": "2026-02-23 12:04:19",
+        "ip_address": "203.0.113.8",
+        "severity": "High",
+        "mitre_attack": "T1190 - Exploit Public-Facing Application",
+        "raw_log": "ALERT: SQL Injection attempt detected from IP 203.0.113.8"
+    },
+    {
+        "incident_id": "96aa9515-44c7-4b16-b703-459ff4cb7913",
+        "timestamp": "2026-02-23 12:04:19",
+        "ip_address": "N/A",
+        "severity": "High",
+        "mitre_attack": "T1566 - Phishing",
+        "raw_log": "ALERT: Possible phishing link clicked by alice@company.com"
+    }
+]
